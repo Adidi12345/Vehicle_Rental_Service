@@ -33,7 +33,7 @@ public class RentalManager {
         return result;
     }
 
-    // Sorting
+
     public List<RentalService> sortByTotalPrice() {
         rentals.sort(Comparator.comparingDouble(RentalService::getTotalPrice));
         return rentals;
