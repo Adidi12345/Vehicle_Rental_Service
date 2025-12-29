@@ -4,7 +4,7 @@ public class Car extends Vehicle {
         super(brand, pricePerDay);
     }
 
-    @Override
+
     public String getType() {
         return "Car";
     }
