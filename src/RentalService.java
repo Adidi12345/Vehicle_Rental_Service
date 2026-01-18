@@ -19,9 +19,18 @@ public class RentalService {
         System.out.println("Vehicle: " + vehicle.getBrand());
         System.out.println("Days: " + days);
         System.out.println("Total price: " + getTotalPrice());
+    }
 
-        }
+    // ✅ НУЖНЫЕ ГЕТТЕРЫ
+    public Vehicle getVehicle() {
+        return vehicle;
+    }
+
     public Client getClient() {
         return client;
+    }
+
+    public int getDays() {
+        return days;
     }
 }
